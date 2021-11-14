@@ -1,0 +1,43 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Heebo', sans-serif;
+}
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.text {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background: #12c2e9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        color: white;
+    text-align: center;
+  padding: 0.2rem;
+  border-bottom: 5px solid white;
+}
+.note {
+    font-size: 2.3rem;
+}
+canvas 
+{
+  border:5px solid white;
+  border-radius:20px;
+  box-shadow:10px 10px 10px grey;
+}
+.copy_right_footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: #12c2e9;  /* fallback for old browsers */
+        color: black;
+    text-align: center;
+  padding: 0.2rem;
+
+}
